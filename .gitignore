@@ -1,0 +1,6 @@
+data/db.mv.db
+upload-dir/
+
+# accidental package files
+package*.json
+node_modules/

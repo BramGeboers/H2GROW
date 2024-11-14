@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Team19BackendApplication<team-19-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "be.ucll.se.team19backend.Team19BackendApplication",
+            "projectName": "team-19-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

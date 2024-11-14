@@ -1,0 +1,23 @@
+
+version: '3.8'
+services:
+  minio:
+    image: 'bitnami/minio:latest'
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    environment:
+      - MINIO_ROOT_USER=minio-root-user
+      - MINIO_ROOT_PASSWORD=minio-root-password
+
+  
+  # frontend:
+  #   image: 'woutpaepenucll/h2grow-frontend:latest'
+  #   ports:
+  #     - '3000:3000'
+  # backend:
+  #   image: 'woutpaepenucll/h2o-backend:latest'
+  #   ports:
+  #     - '8000:8000'
+  #   depends_on:
+  #     - minio
